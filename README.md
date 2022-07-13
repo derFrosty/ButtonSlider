@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+## Available Code Sandbox
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Test it [here](https://codesandbox.io/s/button-slider-jtuwqe).
 
 ## Available Scripts
 

@@ -1,4 +1,4 @@
-import React, { FunctionComponent, useState } from 'react';
+import { FunctionComponent, useState } from 'react';
 
 const ButtonSlider: FunctionComponent = () => {
     const [isOn, setIsOn] = useState<boolean>(true);
