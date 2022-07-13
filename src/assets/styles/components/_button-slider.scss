@@ -1,36 +1,42 @@
 .button-slider {
+    $button-height: 50px;
+    $button-width: 200px;
+    $padding: 3px;
+
     display: inline-flex;
     align-items: center;
     justify-content: space-between;
-    width: 100px;
-    height: 50px;
+    width: $button-width;
+    height: $button-height;
     background-color: rgba(black, .8);
     color: white;
-    padding: 0 10px;
-    border: none;
+    padding: $padding;
+    border: none;/* for IE9+, Firefox 4+, Opera, Chrome */
     border-radius: 30px;
     position: relative;
 
-    p {
-        z-index: 5;
+    .option {
+        width: calc(#{$button-width} / 2);
+        text-align: center;
         background: none;
         cursor: pointer;
+        z-index: 1;
     }
 
     .select-circle {
         position: absolute;
-        width: 50px;
-        height: 50px;
+        width: $button-width / 2;
+        height: $button-height;
         border-radius: 30px;
-        background-color: red;
+        background-color: grey;
         transition: all .3s ease-in-out;
 
         &.is-on {
-            left: 0;
+            left: $padding;
         }
 
         &.is-off{
-            left: calc(100% - 50px);
+            left: calc(100% - (#{$button-width} / 2) - #{$padding});
         }
     }
 
