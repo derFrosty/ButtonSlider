@@ -1,6 +1,6 @@
 ## Available Code Sandbox
 
-Test it [here](https://codesandbox.io/s/button-slider-jtuwqe).
+Test it [here](https://codesandbox.io/s/github/derFrosty/ButtonSlider/tree/master).
 
 ## Available Scripts
 
